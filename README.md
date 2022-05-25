@@ -25,8 +25,8 @@ Try it out yourself! A [live demo](https://pixel--1.herokuapp.com/) is available
 
 3. **(Optional)** Adjust the dimensions of the canvas, zoom settings, or even the color palette.
 	```javascript
-	CANVAS_WIDTH: 50,
-	CANVAS_HEIGHT: 50,
+	CANVAS_WIDTH: 7200,
+	CANVAS_HEIGHT: 7200,
 	CANVAS_INITIAL_ZOOM: 20,
 	CANVAS_MIN_ZOOM: 10,
 	CANVAS_MAX_ZOOM: 40,
