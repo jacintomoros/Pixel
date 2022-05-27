@@ -9,11 +9,11 @@
     // Pixel Settings
     var Pixel = {
         PIXEL_SERVER: "ws://127.0.0.1:3001",
-        CANVAS_WIDTH: 50, // The width and height must be the same as the values set for the server
-        CANVAS_HEIGHT: 50,
-        CANVAS_INITIAL_ZOOM: 20,
-        CANVAS_MIN_ZOOM: 10,
-        CANVAS_MAX_ZOOM: 100,
+        CANVAS_WIDTH: 18, // The width and height must be the same as the values set for the server
+        CANVAS_HEIGHT: 18,
+        CANVAS_INITIAL_ZOOM: 50,
+        CANVAS_MIN_ZOOM: 50,
+        CANVAS_MAX_ZOOM: 1000,
         CANVAS_COLORS: ["#eeeeee", "red", "orange", "yellow", "green", "blue", "purple", "#614126", "white", "black"],
         CANVAS_ELEMENT_ID: "pixelCanvas",
 
