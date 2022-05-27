@@ -20,11 +20,11 @@ const MONGODB_URI = process.env.MONGODB_URI || null;
 
 /* Dimensions of the canvas, these values must be the same as the ones
 set in the browser's code. */
-const CANVAS_WIDTH = process.env.CANVAS_WIDTH || 7200;
-const CANVAS_HEIGHT = process.env.CANVAS_HEIGHT || 7200;
+const CANVAS_WIDTH = process.env.CANVAS_WIDTH || 18;
+const CANVAS_HEIGHT = process.env.CANVAS_HEIGHT || 18;
 
 /* Minimum wait time between each draw request, per IP address (in seconds) */
-const USER_PAINT_LIMIT = process.env.USER_PAINT_LIMIT || 5;
+const USER_PAINT_LIMIT = process.env.USER_PAINT_LIMIT || 1;
 
 
 /*  !!!!! DONT EDIT ANYTHING AFTER THIS !!!!!  */
