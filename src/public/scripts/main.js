@@ -214,11 +214,11 @@
     });
 
 
-    $(window).on("resize", function(e){
-        // canvas MUST always be a square, otherwise it will get distorted
-        stage.canvas.width = stage.canvas.height = Math.max(window.innerHeight, window.innerWidth);
-        stage.update();
-    });
+    // $(window).on("resize", function(e){
+    //     // canvas MUST always be a square, otherwise it will get distorted
+    //     stage.canvas.width = stage.canvas.height = Math.max(window.innerHeight, window.innerWidth);
+    //     stage.update();
+    // });
 
     Pixel.pixelSocket = pixelSocket;
     Pixel.startDrawing = startDrawing;
