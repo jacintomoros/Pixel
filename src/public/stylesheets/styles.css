@@ -7,11 +7,36 @@
 }
 
 body {
-    background-color: #b3ff00;
+    background-color: #ff00ff;
 }
+
+h1 {
+    font-family: Impact, Impact5, Charcoal6, sans-serif;
+    font-size: 140px;
+    line-height: -20px;
+}
+
 
 div {
     font-family: "Segoe UI Web Regular", "Segoe UI", "Helvetica Neue", Helvetica, Arial;
     font-size: 14px;
     line-height: 20px;
+
+}
+
+p {
+    font-family: Impact, Impact5, Charcoal6, sans-serif;
+    font-size: 14px;
+
+    margin-left: 2%;
+    margin-top: 30;
+    position: static;
+    width: 20%
+
+}
+
+img {
+    margin-top: 7%;
+    position: static;
+
 }

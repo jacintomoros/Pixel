@@ -14,12 +14,12 @@
         CANVAS_INITIAL_ZOOM: 50,
         CANVAS_MIN_ZOOM: 50,
         CANVAS_MAX_ZOOM: 1000,
-        CANVAS_COLORS: ["#eeeeee", "red", "orange", "yellow", "green", "blue", "purple", "#614126", "white", "black"],
+        CANVAS_COLORS: ["white", "red", "yellow", "lime", "blue", "white","fuchsia","cyan"],
         CANVAS_ELEMENT_ID: "pixelCanvas",
 
         // optional onload()
         onload: function() {
-            toastr["info"]("Select a color with the 1 - 9 keys\r\nPress 0 to erase", "Instructions");
+            toastr["info"]("Select a color with the 1 - 7 keys\r\nPress 0 to erase", "Instructions");
             setTimeout(function() {
                 toastr["info"]("Keep in mind, you have a 1 minute delay between each pixel you draw");
             }, 4000);
