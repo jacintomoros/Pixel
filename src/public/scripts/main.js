@@ -136,8 +136,8 @@
         stage.addChild(pixels);
 
         $(window).trigger("resize");
-        pixels.x = (window.innerWidth - (zoom * CANVAS_WIDTH)) / 3;
-        pixels.y = (window.innerHeight - (zoom * CANVAS_HEIGHT)) / 3;
+        pixels.x = (window.innerWidth - (zoom * CANVAS_WIDTH)) / 2;
+        pixels.y = (window.innerHeight - (zoom * CANVAS_HEIGHT)) / 2;
 
         stage.update();
         console.log("Canvas Initialization done.");
