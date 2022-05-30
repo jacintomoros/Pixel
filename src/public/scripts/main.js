@@ -136,8 +136,8 @@
         stage.addChild(pixels);
 
         $(window).trigger("resize");
-        pixels.x = (window.innerWidth - (zoom * CANVAS_WIDTH)) / 2;
-        pixels.y = (window.innerHeight - (zoom * CANVAS_HEIGHT)) / 2;
+        pixels.x = (window.innerWidth - (zoom * CANVAS_WIDTH)) / 3;
+        pixels.y = (window.innerHeight - (zoom * CANVAS_HEIGHT)) / 3;
 
         stage.update();
         console.log("Canvas Initialization done.");
@@ -214,11 +214,11 @@
     });
 
 
-    // $(window).on("resize", function(e){
-    //     // canvas MUST always be a square, otherwise it will get distorted
-    //     stage.canvas.width = stage.canvas.height = Math.max(window.innerHeight, window.innerWidth);
-    //     stage.update();
-    // });
+    $(window).on("resize", function(e){
+        // canvas MUST always be a square, otherwise it will get distorted
+        stage.canvas.width = stage.canvas.height = Math.max(window.innerHeight, window.innerWidth);
+        stage.update();
+    });
 
     Pixel.pixelSocket = pixelSocket;
     Pixel.startDrawing = startDrawing;
